@@ -28,5 +28,6 @@ def detail(request, id):
 
     context = {
         'post': post,
+        'form': form
     }  
     return render (request, 'blog/detail.html',context)
